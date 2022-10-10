@@ -1,7 +1,12 @@
 name: envtest
 channels:
-  - defaults
-  - conda-forge
+- defaults
+- conda-forge
 dependencies:
-  - python>=3.6,<3.10
-  - pip
+- python>=3.6,<3.10
+- pip
+- numpy>1.16
+- scipy
+- matplotlib
+- sympy
+
